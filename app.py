@@ -1,6 +1,18 @@
 """
 FarmDoctor AI — Standalone Streamlit App (Cloud Sync Fix)
 """
+from huggingface_hub import hf_hub_download
+import os
+
+MODEL_PATH = "Backend/plant_disease_model.h5"
+
+if not os.path.exists(MODEL_PATH):
+    os.makedirs("Backend", exist_ok=True)
+    hf_hub_download(
+        repo_id="your_username/farmdoctor-model",
+        filename="plant_disease_model.h5",
+        local_dir="Backend"
+    )
 import os
 import gdown
 
