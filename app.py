@@ -5,7 +5,7 @@ import os
 import gdown
 
 MODEL_PATH = "Backend/plant_disease_model.h5"
-FILE_ID = "your_google_drive_file_id_here"
+FILE_ID = "https://drive.google.com/file/d/1lL5puuUz-KOaOZRlvwFwI0iK_eHFL_Mn/view?usp=drive_link"
 
 # Download model if not present
 if not os.path.exists(MODEL_PATH):
