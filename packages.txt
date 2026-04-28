@@ -1,2 +1,2 @@
-# This file must be empty or only contain Debian system packages.
-# Python libraries go in requirements.txt instead.
+libgl1-mesa-glx
+libglib2.0-0
