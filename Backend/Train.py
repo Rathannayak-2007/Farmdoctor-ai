@@ -13,13 +13,9 @@ Usage:
 """
 
 import os
-import sys
-
-# Force UTF-8 encoding for standard output to support emojis in Windows console
-sys.stdout.reconfigure(encoding='utf-8')
-
 import tensorflow as tf
 from tensorflow.keras import layers, models
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
 # ── Configuration ──────────────────────────────────────────────────────────────
@@ -68,58 +64,38 @@ def create_model(num_classes: int) -> tf.keras.Model:
 
 
 def create_data_generators():
-    """Create training and validation data generators.
-
-    Uses the modern tf.keras.utils.image_dataset_from_directory API
-    (replaces the deprecated ImageDataGenerator from keras.preprocessing).
-    Augmentation is applied only to training data via preprocessing layers.
-    """
-    # --- Training dataset (with augmentation) ---
-    train_dataset = tf.keras.utils.image_dataset_from_directory(
-        DATASET_DIR,
+    """Create training and validation data generators with augmentation."""
+    train_datagen = ImageDataGenerator(
+        rescale=1.0 / 255,
+        rotation_range=20,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        shear_range=0.15,
+        zoom_range=0.2,
+        horizontal_flip=True,
+        fill_mode="nearest",
         validation_split=VALIDATION_SPLIT,
-        subset="training",
-        seed=42,
-        image_size=IMAGE_SIZE,
+    )
+
+    train_generator = train_datagen.flow_from_directory(
+        DATASET_DIR,
+        target_size=IMAGE_SIZE,
         batch_size=BATCH_SIZE,
-        label_mode="categorical",
+        class_mode="categorical",
+        subset="training",
         shuffle=True,
     )
 
-    # --- Validation dataset (no augmentation, only rescaling) ---
-    val_dataset = tf.keras.utils.image_dataset_from_directory(
+    val_generator = train_datagen.flow_from_directory(
         DATASET_DIR,
-        validation_split=VALIDATION_SPLIT,
-        subset="validation",
-        seed=42,
-        image_size=IMAGE_SIZE,
+        target_size=IMAGE_SIZE,
         batch_size=BATCH_SIZE,
-        label_mode="categorical",
+        class_mode="categorical",
+        subset="validation",
         shuffle=False,
     )
 
-    # Normalise pixel values to [0, 1]
-    normalization = layers.Rescaling(1.0 / 255)
-
-    # Augmentation pipeline — applied to training only
-    data_augmentation = tf.keras.Sequential([
-        layers.RandomFlip("horizontal"),
-        layers.RandomRotation(0.1),          # ~20 degrees
-        layers.RandomZoom(0.2),
-        layers.RandomTranslation(0.2, 0.2),  # width/height shift
-    ], name="data_augmentation")
-
-    train_dataset = train_dataset.map(
-        lambda x, y: (data_augmentation(normalization(x), training=True), y),
-        num_parallel_calls=tf.data.AUTOTUNE,
-    ).prefetch(tf.data.AUTOTUNE)
-
-    val_dataset = val_dataset.map(
-        lambda x, y: (normalization(x), y),
-        num_parallel_calls=tf.data.AUTOTUNE,
-    ).prefetch(tf.data.AUTOTUNE)
-
-    return train_dataset, val_dataset
+    return train_generator, val_generator
 
 
 def train():
@@ -143,12 +119,11 @@ def train():
                if os.path.isdir(os.path.join(DATASET_DIR, d))]
     num_classes = len(classes)
     
-    # BUG FIX: Instead of aborting, warn if the class count differs and continue
-    # with the actual detected count. This allows training on partial or custom datasets.
     if num_classes != NUM_CLASSES:
-        print(f"\n⚠️  Warning: Found {num_classes} classes (expected {NUM_CLASSES}).")
-        print("   Proceeding with the detected class count. The saved model will reflect this.")
-        print("   If you need exactly 38 classes, please use the full PlantVillage dataset.")
+        print(f"\n❌ CRITICAL ERROR: Found {num_classes} classes, but exactly {NUM_CLASSES} are required.")
+        print("Your PlantVillage dataset is incomplete.")
+        print("Please download the full dataset before training to prevent model mismatch crashes.")
+        return
         
     print(f"\n📂 Found {num_classes} classes in dataset")
     print(f"📏 Image size: {IMAGE_SIZE}")
@@ -158,11 +133,8 @@ def train():
     # Create data generators
     print("\n📊 Creating data generators...")
     train_gen, val_gen = create_data_generators()
-    # tf.data.Dataset does not expose .samples; cardinality() gives batch count
-    train_batches = train_gen.cardinality().numpy()
-    val_batches = val_gen.cardinality().numpy()
-    print(f"   Training batches : {train_batches}  (~{train_batches * BATCH_SIZE} samples)")
-    print(f"   Validation batches: {val_batches}  (~{val_batches * BATCH_SIZE} samples)")
+    print(f"   Training samples: {train_gen.samples}")
+    print(f"   Validation samples: {val_gen.samples}")
 
     # Create model
     print("\n🏗️  Building model (MobileNetV2 transfer learning)...")
@@ -202,15 +174,9 @@ def train():
     )
 
     # Results
-    # BUG FIX: Use .get() to avoid KeyError if training is stopped early
-    # or if val_accuracy is not tracked (e.g. wrong metric name).
-    val_acc_history = history.history.get("val_accuracy", [])
-    if val_acc_history:
-        best_val_acc = max(val_acc_history)
-        print(f"\n✅ Training complete!")
-        print(f"   Best validation accuracy: {best_val_acc:.4f}")
-    else:
-        print(f"\n✅ Training complete! (val_accuracy not recorded)")
+    best_val_acc = max(history.history["val_accuracy"])
+    print(f"\n✅ Training complete!")
+    print(f"   Best validation accuracy: {best_val_acc:.4f}")
     print(f"   Model saved to: {MODEL_SAVE_PATH}")
     print("\nYou can now use the model in the FarmDoctor AI app!")
 

@@ -1,0 +1,968 @@
+{
+  "Apple__Apple_Scab": {
+    "cause": "Fungal \u2014 Venturia inaequalis",
+    "severity_guide": {
+      "mild": "Few spots on leaves",
+      "moderate": "Spreading to fruit",
+      "severe": "Heavy fruit damage"
+    },
+    "cultural_control": [
+      "Remove fallen leaves",
+      "Prune for airflow",
+      "Avoid overhead irrigation"
+    ],
+    "pesticides": [
+      {
+        "name": "Carbendazim 50% WP",
+        "dosage": "500-750 g/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 14,
+        "phi_days": 10,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Captan 50% WP",
+        "dosage": "2.5 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Protective fungicide"
+      }
+    ]
+  },
+  "Apple__Black_Rot": {
+    "cause": "Fungal \u2014 Botryosphaeria obtusa",
+    "severity_guide": {
+      "mild": "Small leaf lesions",
+      "moderate": "Fruit rot starting",
+      "severe": "Mummified fruit"
+    },
+    "cultural_control": [
+      "Remove mummified fruit",
+      "Prune dead wood",
+      "Burn infected material"
+    ],
+    "pesticides": [
+      {
+        "name": "Thiophanate Methyl 70% WP",
+        "dosage": "700 g/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 14,
+        "phi_days": 10,
+        "type": "Contact fungicide"
+      }
+    ]
+  },
+  "Apple__Cedar_Apple_Rust": {
+    "cause": "Fungal \u2014 Gymnosporangium juniperi-virginianae",
+    "severity_guide": {
+      "mild": "Yellow leaf spots",
+      "moderate": "Orange spore masses",
+      "severe": "Defoliation"
+    },
+    "cultural_control": [
+      "Remove nearby juniper/cedar trees",
+      "Plant resistant varieties"
+    ],
+    "pesticides": [
+      {
+        "name": "Propiconazole 25% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Myclobutanil 10% WP",
+        "dosage": "100 g/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Apple__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Maintain regular fertilization",
+      "Monitor for pests",
+      "Prune annually"
+    ],
+    "pesticides": []
+  },
+  "Blueberry__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Maintain soil pH 4.5-5.5"
+    ],
+    "pesticides": []
+  },
+  "Cherry__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Regular pruning",
+      "Monitor for pests"
+    ],
+    "pesticides": []
+  },
+  "Cherry__Powdery_Mildew": {
+    "cause": "Fungal \u2014 Podosphaera clandestina",
+    "severity_guide": {
+      "mild": "White patches on leaves",
+      "moderate": "Distorted shoots",
+      "severe": "Fruit russeting"
+    },
+    "cultural_control": [
+      "Prune for airflow",
+      "Avoid excess nitrogen",
+      "Remove infected shoots"
+    ],
+    "pesticides": [
+      {
+        "name": "Sulphur 80% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 10,
+        "phi_days": 5,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Hexaconazole 5% EC",
+        "dosage": "1 L/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Tebuconazole 25.9% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Corn__Common_Rust": {
+    "cause": "Fungal \u2014 Puccinia sorghi",
+    "severity_guide": {
+      "mild": "Few pustules",
+      "moderate": "Scattered pustules on both surfaces",
+      "severe": "Coalescent pustules, leaf death"
+    },
+    "cultural_control": [
+      "Use resistant hybrids",
+      "Early planting",
+      "Balanced fertilization"
+    ],
+    "pesticides": [
+      {
+        "name": "Propiconazole 25% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Tebuconazole 25.9% EC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 30,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Corn__Gray_Leaf_Spot": {
+    "cause": "Fungal \u2014 Cercospora zeae-maydis",
+    "severity_guide": {
+      "mild": "Rectangular grey lesions",
+      "moderate": "Multiple lesions merging",
+      "severe": "Blighting of leaves"
+    },
+    "cultural_control": [
+      "Crop rotation",
+      "Tillage to bury residue",
+      "Resistant hybrids"
+    ],
+    "pesticides": [
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "1 L/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Propiconazole 25% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Corn__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Balanced NPK fertilization",
+      "Timely irrigation"
+    ],
+    "pesticides": []
+  },
+  "Corn__Northern_Leaf_Blight": {
+    "cause": "Fungal \u2014 Exserohilum turcicum",
+    "severity_guide": {
+      "mild": "Long cigar-shaped lesions",
+      "moderate": "Multiple lesions per leaf",
+      "severe": "Premature death of leaves"
+    },
+    "cultural_control": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Destroy crop debris"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "1 L/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Grape__Black_Rot": {
+    "cause": "Fungal \u2014 Guignardia bidwellii",
+    "severity_guide": {
+      "mild": "Small leaf spots",
+      "moderate": "Fruit infection starting",
+      "severe": "Mummified berries"
+    },
+    "cultural_control": [
+      "Remove mummified berries",
+      "Prune for air circulation",
+      "Weed control"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Carbendazim 50% WP",
+        "dosage": "500 g/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Grape__Esca": {
+    "cause": "Fungal complex \u2014 Phaeomoniella, Phaeoacremonium spp.",
+    "severity_guide": {
+      "mild": "Tiger-stripe leaf symptoms",
+      "moderate": "Wood discoloration",
+      "severe": "Apoplexy/sudden death"
+    },
+    "cultural_control": [
+      "Remove infected wood",
+      "Protect pruning wounds",
+      "Avoid large pruning cuts"
+    ],
+    "pesticides": [
+      {
+        "name": "Tebuconazole 25.9% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Wound protectant"
+      }
+    ]
+  },
+  "Grape__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Regular canopy management",
+      "Monitor for pests"
+    ],
+    "pesticides": []
+  },
+  "Grape__Leaf_Blight": {
+    "cause": "Fungal \u2014 Isariopsis clavispora",
+    "severity_guide": {
+      "mild": "Dark spots on leaves",
+      "moderate": "Leaf yellowing",
+      "severe": "Defoliation"
+    },
+    "cultural_control": [
+      "Remove infected leaves",
+      "Avoid overhead irrigation"
+    ],
+    "pesticides": [
+      {
+        "name": "Copper Oxychloride 50% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      }
+    ]
+  },
+  "Orange__Citrus_Greening": {
+    "cause": "Bacterial \u2014 Candidatus Liberibacter asiaticus (spread by psyllid)",
+    "severity_guide": {
+      "mild": "Blotchy mottle on leaves",
+      "moderate": "Small lopsided fruit",
+      "severe": "Tree decline"
+    },
+    "cultural_control": [
+      "Remove infected trees immediately",
+      "Control psyllid vector",
+      "Use certified disease-free nursery plants"
+    ],
+    "pesticides": [
+      {
+        "name": "Imidacloprid 17.8% SL (for psyllid)",
+        "dosage": "125 ml/ha",
+        "interval_days": 21,
+        "phi_days": 21,
+        "type": "Systemic insecticide for vector"
+      },
+      {
+        "name": "Thiamethoxam 25% WG (for psyllid)",
+        "dosage": "100 g/ha",
+        "interval_days": 21,
+        "phi_days": 21,
+        "type": "Systemic insecticide for vector"
+      }
+    ]
+  },
+  "Peach__Bacterial_Spot": {
+    "cause": "Bacterial \u2014 Xanthomonas arboricola pv. pruni",
+    "severity_guide": {
+      "mild": "Small angular leaf spots",
+      "moderate": "Defoliation starting",
+      "severe": "Fruit cracking, heavy defoliation"
+    },
+    "cultural_control": [
+      "Windbreaks",
+      "Resistant varieties",
+      "Avoid overhead irrigation"
+    ],
+    "pesticides": [
+      {
+        "name": "Copper Hydroxide 77% WP",
+        "dosage": "2.5 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Bactericide"
+      },
+      {
+        "name": "Streptomycin Sulphate 9% + Tetracycline 1%",
+        "dosage": "300 g/ha",
+        "interval_days": 10,
+        "phi_days": 30,
+        "type": "Antibiotic bactericide"
+      }
+    ]
+  },
+  "Peach__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Annual pruning",
+      "Balanced fertilization"
+    ],
+    "pesticides": []
+  },
+  "Pepper__Bacterial_Spot": {
+    "cause": "Bacterial \u2014 Xanthomonas campestris pv. vesicatoria",
+    "severity_guide": {
+      "mild": "Water-soaked leaf spots",
+      "moderate": "Defoliation starting",
+      "severe": "Fruit lesions, heavy crop loss"
+    },
+    "cultural_control": [
+      "Use disease-free seed",
+      "Crop rotation 2-3 years",
+      "Avoid overhead irrigation"
+    ],
+    "pesticides": [
+      {
+        "name": "Copper Oxychloride 50% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact bactericide"
+      },
+      {
+        "name": "Kasugamycin 3% SL",
+        "dosage": "750 ml/ha",
+        "interval_days": 10,
+        "phi_days": 3,
+        "type": "Antibiotic bactericide"
+      }
+    ]
+  },
+  "Pepper__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Balanced NPK",
+      "Monitor for aphids"
+    ],
+    "pesticides": []
+  },
+  "Potato__Early_Blight": {
+    "cause": "Fungal \u2014 Alternaria solani",
+    "severity_guide": {
+      "mild": "Dark spots with concentric rings",
+      "moderate": "Lower leaf yellowing",
+      "severe": "Defoliation, tuber lesions"
+    },
+    "cultural_control": [
+      "Crop rotation 3 years",
+      "Remove infected foliage",
+      "Balanced potassium fertilization"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      }
+    ]
+  },
+  "Potato__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Use certified seed",
+      "Proper earthing up"
+    ],
+    "pesticides": []
+  },
+  "Potato__Late_Blight": {
+    "cause": "Oomycete \u2014 Phytophthora infestans",
+    "severity_guide": {
+      "mild": "Water-soaked lesions on leaf margins",
+      "moderate": "White sporulation visible",
+      "severe": "Complete foliage collapse"
+    },
+    "cultural_control": [
+      "Use blight-resistant varieties",
+      "Destroy volunteer plants",
+      "Ensure good drainage"
+    ],
+    "pesticides": [
+      {
+        "name": "Metalaxyl 8% + Mancozeb 64% WP",
+        "dosage": "2.5 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Systemic + contact fungicide"
+      },
+      {
+        "name": "Cymoxanil 8% + Mancozeb 64% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Systemic + contact fungicide"
+      },
+      {
+        "name": "Dimethomorph 50% WP",
+        "dosage": "1 kg/ha",
+        "interval_days": 10,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Raspberry__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Annual cane pruning",
+      "Remove old canes after harvest"
+    ],
+    "pesticides": []
+  },
+  "Rice__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Maintain proper water level",
+      "Balanced NPK"
+    ],
+    "pesticides": []
+  },
+  "Soybean__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Crop rotation",
+      "Weed management"
+    ],
+    "pesticides": []
+  },
+  "Squash__Powdery_Mildew": {
+    "cause": "Fungal \u2014 Podosphaera xanthii / Erysiphe cichoracearum",
+    "severity_guide": {
+      "mild": "White powdery patches",
+      "moderate": "Leaves yellowing",
+      "severe": "Defoliation, reduced yield"
+    },
+    "cultural_control": [
+      "Plant resistant varieties",
+      "Avoid dense planting",
+      "Remove infected leaves"
+    ],
+    "pesticides": [
+      {
+        "name": "Sulphur 80% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 7,
+        "phi_days": 3,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Hexaconazole 5% EC",
+        "dosage": "1 L/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 3,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Strawberry__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Runner management",
+      "Mulching"
+    ],
+    "pesticides": []
+  },
+  "Strawberry__Leaf_Scorch": {
+    "cause": "Fungal \u2014 Diplocarpon earlianum",
+    "severity_guide": {
+      "mild": "Purple-red spots",
+      "moderate": "Spots merge, leaf margins scorch",
+      "severe": "Defoliation"
+    },
+    "cultural_control": [
+      "Remove old leaves after harvest",
+      "Avoid overhead irrigation",
+      "Increase plant spacing"
+    ],
+    "pesticides": [
+      {
+        "name": "Captan 50% WP",
+        "dosage": "2.5 kg/ha",
+        "interval_days": 10,
+        "phi_days": 3,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Myclobutanil 10% WP",
+        "dosage": "100 g/ha",
+        "interval_days": 14,
+        "phi_days": 1,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Tomato__Bacterial_Spot": {
+    "cause": "Bacterial \u2014 Xanthomonas vesicatoria",
+    "severity_guide": {
+      "mild": "Small water-soaked spots",
+      "moderate": "Scab-like fruit lesions",
+      "severe": "Defoliation, unmarketable fruit"
+    },
+    "cultural_control": [
+      "Use disease-free transplants",
+      "Crop rotation",
+      "Drip irrigation"
+    ],
+    "pesticides": [
+      {
+        "name": "Copper Oxychloride 50% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact bactericide"
+      },
+      {
+        "name": "Kasugamycin 3% SL",
+        "dosage": "750 ml/ha",
+        "interval_days": 10,
+        "phi_days": 3,
+        "type": "Antibiotic bactericide"
+      }
+    ]
+  },
+  "Tomato__Early_Blight": {
+    "cause": "Fungal \u2014 Alternaria solani",
+    "severity_guide": {
+      "mild": "Target-like spots on older leaves",
+      "moderate": "Yellowing and defoliation",
+      "severe": "Stem lesions, fruit rot"
+    },
+    "cultural_control": [
+      "Crop rotation",
+      "Stake plants for airflow",
+      "Remove infected lower leaves"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 3,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Tomato__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Stake plants",
+      "Balanced NPK",
+      "Drip irrigation"
+    ],
+    "pesticides": []
+  },
+  "Tomato__Late_Blight": {
+    "cause": "Oomycete \u2014 Phytophthora infestans",
+    "severity_guide": {
+      "mild": "Water-soaked lesions",
+      "moderate": "White mold on underside",
+      "severe": "Entire plant collapse"
+    },
+    "cultural_control": [
+      "Destroy infected plants immediately",
+      "Avoid overhead watering",
+      "Improve drainage"
+    ],
+    "pesticides": [
+      {
+        "name": "Metalaxyl 8% + Mancozeb 64% WP",
+        "dosage": "2.5 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Systemic + contact fungicide"
+      },
+      {
+        "name": "Cymoxanil 8% + Mancozeb 64% WP",
+        "dosage": "3 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Systemic + contact fungicide"
+      },
+      {
+        "name": "Dimethomorph 50% WP",
+        "dosage": "1 kg/ha",
+        "interval_days": 10,
+        "phi_days": 3,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Tomato__Leaf_Mold": {
+    "cause": "Fungal \u2014 Passalora fulva",
+    "severity_guide": {
+      "mild": "Yellow patches on upper leaf",
+      "moderate": "Olive-green mold below",
+      "severe": "Defoliation"
+    },
+    "cultural_control": [
+      "Reduce humidity below 85%",
+      "Prune lower leaves",
+      "Increase plant spacing"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Hexaconazole 5% EC",
+        "dosage": "1 L/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Tomato__Mosaic_Virus": {
+    "cause": "Viral \u2014 Tomato Mosaic Virus (ToMV)",
+    "severity_guide": {
+      "mild": "Light-dark green mosaic",
+      "moderate": "Leaf distortion",
+      "severe": "Stunting, poor yield"
+    },
+    "cultural_control": [
+      "Use virus-free seed",
+      "Control aphid vectors",
+      "Wash hands before handling plants",
+      "Remove infected plants"
+    ],
+    "pesticides": [
+      {
+        "name": "Imidacloprid 17.8% SL (for aphid vector)",
+        "dosage": "125 ml/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic insecticide for vector"
+      }
+    ]
+  },
+  "Tomato__Septoria_Leaf_Spot": {
+    "cause": "Fungal \u2014 Septoria lycopersici",
+    "severity_guide": {
+      "mild": "Small circular spots with dark border",
+      "moderate": "Yellowing, lower leaf drop",
+      "severe": "Extensive defoliation"
+    },
+    "cultural_control": [
+      "Crop rotation 2-3 years",
+      "Avoid overhead irrigation",
+      "Remove infected leaves"
+    ],
+    "pesticides": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      },
+      {
+        "name": "Carbendazim 50% WP",
+        "dosage": "500 g/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic fungicide"
+      }
+    ]
+  },
+  "Tomato__Spider_Mites": {
+    "cause": "Arthropod \u2014 Tetranychus urticae (Two-spotted spider mite)",
+    "severity_guide": {
+      "mild": "Fine stippling on leaves",
+      "moderate": "Webbing visible",
+      "severe": "Leaf bronzing, defoliation"
+    },
+    "cultural_control": [
+      "Overhead irrigation to dislodge mites",
+      "Release predatory mites",
+      "Avoid water stress"
+    ],
+    "pesticides": [
+      {
+        "name": "Abamectin 1.9% EC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Miticide/acaricide"
+      },
+      {
+        "name": "Spiromesifen 22.9% SC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 3,
+        "type": "Selective acaricide"
+      },
+      {
+        "name": "Dicofol 18.5% EC",
+        "dosage": "1.5 L/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Selective acaricide"
+      }
+    ]
+  },
+  "Tomato__Target_Spot": {
+    "cause": "Fungal \u2014 Corynespora cassiicola",
+    "severity_guide": {
+      "mild": "Dark brown concentric ring spots",
+      "moderate": "Multiple spots on leaves",
+      "severe": "Defoliation, fruit lesions"
+    },
+    "cultural_control": [
+      "Crop rotation",
+      "Destroy crop debris",
+      "Improve ventilation"
+    ],
+    "pesticides": [
+      {
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 3,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2 kg/ha",
+        "interval_days": 7,
+        "phi_days": 7,
+        "type": "Contact fungicide"
+      }
+    ]
+  },
+  "Tomato__Yellow_Leaf_Curl_Virus": {
+    "cause": "Viral \u2014 Tomato Yellow Leaf Curl Virus (TYLCV) spread by whitefly",
+    "severity_guide": {
+      "mild": "Upward leaf curling, yellowing",
+      "moderate": "Stunted growth",
+      "severe": "No fruit set, complete loss"
+    },
+    "cultural_control": [
+      "Use insect-proof net houses",
+      "Remove infected plants",
+      "Use reflective mulch to repel whitefly",
+      "Plant resistant varieties (Arka Rakshak)"
+    ],
+    "pesticides": [
+      {
+        "name": "Imidacloprid 17.8% SL (for whitefly)",
+        "dosage": "125 ml/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic insecticide for vector"
+      },
+      {
+        "name": "Thiamethoxam 25% WG (for whitefly)",
+        "dosage": "100 g/ha",
+        "interval_days": 14,
+        "phi_days": 7,
+        "type": "Systemic insecticide for vector"
+      },
+      {
+        "name": "Spiromesifen 22.9% SC (for whitefly nymphs)",
+        "dosage": "750 ml/ha",
+        "interval_days": 14,
+        "phi_days": 3,
+        "type": "Selective insecticide"
+      }
+    ]
+  },
+  "Wheat__Healthy": {
+    "cause": null,
+    "severity_guide": {},
+    "cultural_control": [
+      "Timely sowing",
+      "Balanced NPK"
+    ],
+    "pesticides": []
+  },
+  "Wheat__Yellow_Rust": {
+    "cause": "Fungal \u2014 Puccinia striiformis f. sp. tritici",
+    "severity_guide": {
+      "mild": "Yellow stripe pustules on leaves",
+      "moderate": "Multiple stripes, yellowing",
+      "severe": "Premature leaf death"
+    },
+    "cultural_control": [
+      "Use resistant varieties (HD-2967, PBW-343)",
+      "Early sowing",
+      "Balanced nitrogen"
+    ],
+    "pesticides": [
+      {
+        "name": "Propiconazole 25% EC",
+        "dosage": "500 ml/ha",
+        "interval_days": 21,
+        "phi_days": 14,
+        "type": "Systemic fungicide"
+      },
+      {
+        "name": "Tebuconazole 25.9% EC",
+        "dosage": "750 ml/ha",
+        "interval_days": 21,
+        "phi_days": 35,
+        "type": "Systemic fungicide"
+      }
+    ]
+  }
+}

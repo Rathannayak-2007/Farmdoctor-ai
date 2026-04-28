@@ -1,0 +1,1644 @@
+{
+  "Apple___Apple_scab": {
+    "display_name": "Apple Scab",
+    "description": "Apple scab is a fungal disease caused by Venturia inaequalis. It affects leaves, fruit, and twigs, leading to dark, olive-green to black lesions.",
+    "symptoms": [
+      "Olive-green to dark brown velvety spots on leaves",
+      "Scabby, cracked lesions on fruit surface",
+      "Premature leaf drop in severe cases",
+      "Distorted or stunted fruit growth"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Captan 50% WP (2 g/L)",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Remove and destroy fallen infected leaves",
+      "Prune trees to improve air circulation",
+      "Apply fungicide sprays before rainy season",
+      "Plant resistant apple varieties like Liberty or Enterprise",
+      "Maintain proper tree spacing"
+    ],
+    "severity": "Moderate"
+  },
+  "Apple___Black_rot": {
+    "display_name": "Apple Black Rot",
+    "description": "Black rot is caused by the fungus Botryosphaeria obtusa. It causes leaf spots, fruit rot, and cankers on branches.",
+    "symptoms": [
+      "Purple-bordered brown spots on leaves (frogeye leaf spot)",
+      "Brown to black rotting on fruit, starting at blossom end",
+      "Sunken cankers on branches and trunk",
+      "Mummified fruit remains on tree"
+    ],
+    "pesticides": [
+      "Captan 50% WP (2 g/L)",
+      "Thiophanate-methyl 70% WP (1 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)"
+    ],
+    "prevention": [
+      "Remove mummified fruit and dead wood from trees",
+      "Prune out cankers during dormant season",
+      "Apply fungicide at pink bud and petal fall stages",
+      "Maintain good orchard sanitation",
+      "Avoid wounding fruit during harvest"
+    ],
+    "severity": "High"
+  },
+  "Apple___Cedar_apple_rust": {
+    "display_name": "Apple Cedar Rust",
+    "description": "Cedar apple rust is caused by the fungus Gymnosporangium juniperi-virginianae. It requires both apple and cedar/juniper as alternate hosts.",
+    "symptoms": [
+      "Bright yellow-orange spots on upper leaf surface",
+      "Small black dots in center of leaf spots",
+      "Tube-like projections on leaf undersides",
+      "Deformed or spotted fruit"
+    ],
+    "pesticides": [
+      "Myclobutanil 10% WP (1 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Triadimefon 25% WP (0.5 g/L)"
+    ],
+    "prevention": [
+      "Remove nearby cedar and juniper trees if possible",
+      "Plant rust-resistant apple varieties",
+      "Apply fungicide from pink bud through petal fall",
+      "Scout for galls on cedars in early spring and remove them",
+      "Maintain proper tree nutrition for stronger resistance"
+    ],
+    "severity": "Moderate"
+  },
+  "Apple___healthy": {
+    "display_name": "Healthy Apple",
+    "description": "The apple plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Continue regular monitoring for pests and diseases",
+      "Maintain proper irrigation and nutrition schedule",
+      "Prune regularly for good air circulation",
+      "Apply dormant oil spray in early spring",
+      "Practice integrated pest management (IPM)"
+    ],
+    "severity": "None"
+  },
+  "Blueberry___healthy": {
+    "display_name": "Healthy Blueberry",
+    "description": "The blueberry plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Maintain acidic soil pH (4.5-5.5)",
+      "Mulch with pine needles or wood chips",
+      "Ensure adequate drainage",
+      "Prune old canes annually",
+      "Monitor for spotted wing drosophila"
+    ],
+    "severity": "None"
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "display_name": "Cherry Powdery Mildew",
+    "description": "Powdery mildew on cherry is caused by Podosphaera clandestina. It creates a white powdery coating on leaves and fruit.",
+    "symptoms": [
+      "White powdery coating on leaf surfaces",
+      "Leaf curling and distortion",
+      "Stunted shoot growth",
+      "White patches on fruit surface"
+    ],
+    "pesticides": [
+      "Sulphur 80% WP (3 g/L)",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Trifloxystrobin 25% WG (0.5 g/L)",
+      "Potassium bicarbonate (5 g/L)"
+    ],
+    "prevention": [
+      "Ensure good air circulation through pruning",
+      "Avoid overhead irrigation",
+      "Remove and destroy infected shoots",
+      "Apply fungicide at first sign of disease",
+      "Plant resistant varieties when available"
+    ],
+    "severity": "Moderate"
+  },
+  "Cherry_(including_sour)___healthy": {
+    "display_name": "Healthy Cherry",
+    "description": "The cherry plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Maintain proper spacing between trees",
+      "Regular pruning for air circulation",
+      "Monitor for brown rot and leaf spot",
+      "Apply dormant spray in late winter",
+      "Keep area around trees clean"
+    ],
+    "severity": "None"
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "display_name": "Corn Gray Leaf Spot",
+    "description": "Gray leaf spot is caused by Cercospora zeae-maydis. It is one of the most significant yield-limiting diseases of corn worldwide.",
+    "symptoms": [
+      "Small, rectangular, gray to tan lesions on leaves",
+      "Lesions run parallel to leaf veins",
+      "Lesions may merge, blighting entire leaves",
+      "Lower leaves affected first, progressing upward"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Mancozeb 75% WP (2.5 g/L)"
+    ],
+    "prevention": [
+      "Rotate crops â€” avoid planting corn after corn",
+      "Use resistant hybrids",
+      "Till crop residues to reduce inoculum",
+      "Ensure adequate plant spacing",
+      "Apply foliar fungicide at tasseling stage"
+    ],
+    "severity": "High"
+  },
+  "Corn_(maize)___Common_rust_": {
+    "display_name": "Corn Common Rust",
+    "description": "Common rust of corn is caused by Puccinia sorghi. It produces small, reddish-brown pustules on both leaf surfaces.",
+    "symptoms": [
+      "Small, round to elongated reddish-brown pustules",
+      "Pustules appear on both upper and lower leaf surfaces",
+      "Severe infection causes leaf yellowing and death",
+      "Pustules turn dark brown to black as they mature"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Propiconazole 25% EC (1 mL/L)",
+      "Azoxystrobin 23% SC (1 mL/L)"
+    ],
+    "prevention": [
+      "Plant rust-resistant hybrids",
+      "Early planting to avoid peak rust season",
+      "Monitor fields regularly, especially during cool, humid weather",
+      "Apply fungicide at first sign if susceptible hybrid",
+      "Maintain balanced fertilization"
+    ],
+    "severity": "Moderate"
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "display_name": "Corn Northern Leaf Blight",
+    "description": "Northern leaf blight is caused by Exserohilum turcicum. It causes long, cigar-shaped grayish-green lesions on corn leaves.",
+    "symptoms": [
+      "Long, elliptical (cigar-shaped) grayish-green to tan lesions",
+      "Lesions 2-15 cm long on leaves",
+      "Lower leaves affected first",
+      "Severe cases cause premature leaf death"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Mancozeb 75% WP (2.5 g/L)"
+    ],
+    "prevention": [
+      "Plant resistant hybrids",
+      "Rotate with non-host crops (soybeans, wheat)",
+      "Till infected crop residue",
+      "Avoid overhead irrigation",
+      "Apply fungicide at tasseling if disease pressure is high"
+    ],
+    "severity": "High"
+  },
+  "Corn_(maize)___healthy": {
+    "display_name": "Healthy Corn",
+    "description": "The corn plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Practice crop rotation",
+      "Maintain proper plant spacing and nutrition",
+      "Scout regularly for pests and diseases",
+      "Use quality seed from reliable sources",
+      "Manage weeds to reduce disease pressure"
+    ],
+    "severity": "None"
+  },
+  "Grape___Black_rot": {
+    "display_name": "Grape Black Rot",
+    "description": "Black rot is caused by Guignardia bidwellii. It attacks all green parts of the vine and is most destructive to fruit.",
+    "symptoms": [
+      "Circular reddish-brown spots on leaves",
+      "Small black pycnidia in leaf spots",
+      "Fruit turns brown, then black and shriveled (mummified)",
+      "Cankers on shoots and tendrils"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Captan 50% WP (2 g/L)"
+    ],
+    "prevention": [
+      "Remove mummified fruits and infected plant material",
+      "Prune vines properly for air circulation",
+      "Apply fungicide from bud break to veraison",
+      "Ensure good drainage in vineyard",
+      "Destroy crop residues after harvest"
+    ],
+    "severity": "High"
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "display_name": "Grape Esca (Black Measles)",
+    "description": "Esca is a complex fungal trunk disease caused by multiple fungi. It causes distinctive tiger-stripe patterns on leaves.",
+    "symptoms": [
+      "Interveinal chlorosis giving tiger-stripe pattern on leaves",
+      "Dark spots on berries (measles-like)",
+      "Sudden vine collapse (apoplexy) in severe cases",
+      "Wood decay visible in cross-section of trunk"
+    ],
+    "pesticides": [
+      "No effective chemical control available",
+      "Trichoderma-based biological products for wound protection",
+      "Sodium arsenite (restricted use, consult authorities)"
+    ],
+    "prevention": [
+      "Avoid large pruning wounds â€” make clean cuts",
+      "Apply wound protectant paste after pruning",
+      "Remove and burn severely infected vines",
+      "Retrain new shoots from below infected area",
+      "Maintain vine health through balanced nutrition"
+    ],
+    "severity": "Very High"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "display_name": "Grape Leaf Blight",
+    "description": "Grape leaf blight (Isariopsis leaf spot) is caused by Pseudocercospora vitis. It causes brown necrotic spots on grape leaves.",
+    "symptoms": [
+      "Small dark brown spots on leaves",
+      "Spots enlarge with dark margins",
+      "Premature defoliation in severe cases",
+      "Reduced vine vigor"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Carbendazim 50% WP (1 g/L)"
+    ],
+    "prevention": [
+      "Remove and destroy infected leaves",
+      "Ensure good air circulation through canopy management",
+      "Avoid overhead irrigation",
+      "Apply preventive fungicide sprays",
+      "Maintain balanced vine nutrition"
+    ],
+    "severity": "Moderate"
+  },
+  "Grape___healthy": {
+    "display_name": "Healthy Grape",
+    "description": "The grape vine appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Regular canopy management and pruning",
+      "Monitor for downy and powdery mildew",
+      "Maintain balanced fertilization",
+      "Ensure proper drainage",
+      "Practice integrated pest management"
+    ],
+    "severity": "None"
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "display_name": "Citrus Greening (Huanglongbing)",
+    "description": "Huanglongbing (HLB) or citrus greening is caused by Candidatus Liberibacter bacteria, spread by the Asian citrus psyllid. It is the most devastating citrus disease worldwide.",
+    "symptoms": [
+      "Asymmetric blotchy mottling on leaves (unlike nutrient deficiency which is symmetric)",
+      "Lopsided, small, bitter fruit that stays green",
+      "Yellow shoots (yellow dragon symptom)",
+      "Twig dieback and overall tree decline"
+    ],
+    "pesticides": [
+      "No cure available â€” manage the vector (psyllid)",
+      "Imidacloprid 17.8% SL (soil drench, 0.5 mL/L)",
+      "Dimethoate 30% EC (2 mL/L) for psyllid control",
+      "Neem oil 1500 ppm (5 mL/L) as deterrent"
+    ],
+    "prevention": [
+      "Use certified disease-free nursery plants",
+      "Control Asian citrus psyllid populations aggressively",
+      "Remove and destroy infected trees promptly",
+      "Plant windbreaks to reduce psyllid movement",
+      "Regular scouting for psyllids and symptoms"
+    ],
+    "severity": "Very High"
+  },
+  "Peach___Bacterial_spot": {
+    "display_name": "Peach Bacterial Spot",
+    "description": "Bacterial spot of peach is caused by Xanthomonas arboricola pv. pruni. It affects leaves, fruit, and twigs.",
+    "symptoms": [
+      "Small, angular, water-soaked spots on leaves",
+      "Spots turn purple-brown, may fall out creating shot-hole appearance",
+      "Sunken, dark spots on fruit",
+      "Cankers on twigs"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L) â€” early season only",
+      "Oxytetracycline (agricultural grade)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Avoid overhead irrigation",
+      "Provide good air circulation through pruning",
+      "Apply copper sprays at leaf fall and before bud break",
+      "Use windbreaks to reduce rain splash spread"
+    ],
+    "severity": "Moderate"
+  },
+  "Peach___healthy": {
+    "display_name": "Healthy Peach",
+    "description": "The peach plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Regular pruning for open canopy",
+      "Monitor for peach leaf curl in spring",
+      "Apply dormant fungicide spray",
+      "Control borers and other pests",
+      "Maintain balanced nutrition"
+    ],
+    "severity": "None"
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "display_name": "Bell Pepper Bacterial Spot",
+    "description": "Bacterial spot of pepper is caused by Xanthomonas species. It causes leaf spots, fruit spots, and defoliation.",
+    "symptoms": [
+      "Small, water-soaked, dark green spots on leaves",
+      "Spots enlarge, turn brown with yellow halos",
+      "Raised, scab-like spots on fruit",
+      "Severe defoliation exposing fruit to sunscald"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L)",
+      "Streptomycin sulphate 9% + Tetracycline HCl 1% (0.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use certified disease-free seeds",
+      "Practice crop rotation (2-3 years)",
+      "Avoid overhead irrigation",
+      "Remove infected plant debris",
+      "Use resistant varieties when available"
+    ],
+    "severity": "Moderate"
+  },
+  "Pepper,_bell___healthy": {
+    "display_name": "Healthy Bell Pepper",
+    "description": "The bell pepper plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Maintain consistent watering",
+      "Support plants with stakes or cages",
+      "Monitor for aphids and whiteflies",
+      "Mulch to maintain soil moisture",
+      "Rotate crops annually"
+    ],
+    "severity": "None"
+  },
+  "Potato___Early_blight": {
+    "display_name": "Potato Early Blight",
+    "description": "Early blight is caused by Alternaria solani. It produces characteristic concentric ring (target-like) lesions on potato leaves.",
+    "symptoms": [
+      "Dark brown spots with concentric rings (target board pattern)",
+      "Spots appear on older, lower leaves first",
+      "Yellowing around lesions",
+      "Premature defoliation reducing tuber yield"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Propineb 70% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use certified disease-free seed tubers",
+      "Practice 2-3 year crop rotation",
+      "Maintain adequate plant nutrition (especially potassium)",
+      "Remove infected plant debris after harvest",
+      "Apply protective fungicide sprays during humid weather"
+    ],
+    "severity": "Moderate"
+  },
+  "Potato___Late_blight": {
+    "display_name": "Potato Late Blight",
+    "description": "Late blight is caused by Phytophthora infestans â€” the same pathogen that caused the Irish Potato Famine. It is the most destructive potato disease.",
+    "symptoms": [
+      "Water-soaked, pale green spots on leaf tips and edges",
+      "Spots rapidly enlarge, turning dark brown to black",
+      "White mold growth on underside of leaves in humid conditions",
+      "Tubers develop brown, granular rot"
+    ],
+    "pesticides": [
+      "Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold â€” 2.5 g/L)",
+      "Cymoxanil 8% + Mancozeb 64% WP (2.5 g/L)",
+      "Dimethomorph 50% WP (1 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use certified disease-free seed tubers",
+      "Plant resistant varieties (Kufri Jyoti, Kufri Badshah)",
+      "Destroy volunteer potato plants",
+      "Avoid overhead irrigation",
+      "Apply preventive fungicide before rainy season",
+      "Hill up soil around plants to protect tubers"
+    ],
+    "severity": "Very High"
+  },
+  "Potato___healthy": {
+    "display_name": "Healthy Potato",
+    "description": "The potato plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Use certified seed tubers",
+      "Practice crop rotation with non-solanaceous crops",
+      "Maintain proper drainage",
+      "Monitor for Colorado potato beetle",
+      "Hill up soil to prevent tuber greening"
+    ],
+    "severity": "None"
+  },
+  "Raspberry___healthy": {
+    "display_name": "Healthy Raspberry",
+    "description": "The raspberry plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Remove spent canes after fruiting",
+      "Maintain good air circulation",
+      "Use drip irrigation to keep foliage dry",
+      "Mulch to suppress weeds and retain moisture",
+      "Scout for spotted wing drosophila"
+    ],
+    "severity": "None"
+  },
+  "Soybean___healthy": {
+    "display_name": "Healthy Soybean",
+    "description": "The soybean plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Use treated, high-quality seed",
+      "Rotate with corn or other non-legume crops",
+      "Monitor for aphids and soybean cyst nematode",
+      "Maintain proper row spacing",
+      "Scout fields regularly during growing season"
+    ],
+    "severity": "None"
+  },
+  "Squash___Powdery_mildew": {
+    "display_name": "Squash Powdery Mildew",
+    "description": "Powdery mildew on squash is primarily caused by Podosphaera xanthii. It creates a distinctive white powdery coating on leaves.",
+    "symptoms": [
+      "White, talcum-like powdery patches on upper leaf surface",
+      "Patches spread to cover entire leaf",
+      "Leaves yellow and dry up",
+      "Reduced fruit size and quality"
+    ],
+    "pesticides": [
+      "Sulphur 80% WP (3 g/L) â€” avoid in hot weather",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Potassium bicarbonate (5 g/L)",
+      "Neem oil 1500 ppm (5 mL/L)"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Ensure proper plant spacing for air flow",
+      "Avoid overhead watering",
+      "Remove and destroy severely infected leaves",
+      "Apply preventive sprays when conditions favor disease"
+    ],
+    "severity": "Moderate"
+  },
+  "Strawberry___Leaf_scorch": {
+    "display_name": "Strawberry Leaf Scorch",
+    "description": "Leaf scorch is caused by the fungus Diplocarpon earlianum. It causes purple blotches on strawberry leaves.",
+    "symptoms": [
+      "Small, irregular purple spots on leaf upper surface",
+      "Spots enlarge and merge, creating scorched appearance",
+      "Leaf margins turn brown and curl upward",
+      "Severe defoliation weakens plants"
+    ],
+    "pesticides": [
+      "Captan 50% WP (2 g/L)",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use certified disease-free transplants",
+      "Renovate strawberry beds after harvest",
+      "Remove old infected leaves",
+      "Ensure proper drainage and spacing",
+      "Apply fungicide during wet weather"
+    ],
+    "severity": "Moderate"
+  },
+  "Strawberry___healthy": {
+    "display_name": "Healthy Strawberry",
+    "description": "The strawberry plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Use certified disease-free transplants",
+      "Mulch with straw to keep fruit clean",
+      "Maintain proper plant spacing",
+      "Remove runners to maintain plant vigor",
+      "Monitor for spider mites and slugs"
+    ],
+    "severity": "None"
+  },
+  "Tomato___Bacterial_spot": {
+    "display_name": "Tomato Bacterial Spot",
+    "description": "Bacterial spot on tomato is caused by Xanthomonas species. It causes leaf spots, fruit spots, and defoliation.",
+    "symptoms": [
+      "Small, dark, water-soaked, greasy spots on leaves",
+      "Spots may have yellow halos",
+      "Raised, scab-like bumps on fruit",
+      "Severe defoliation leading to sunscald on fruit"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L)",
+      "Streptocycline (Streptomycin sulphate â€” 0.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use certified disease-free seed and transplants",
+      "Rotate crops â€” avoid planting tomato after pepper or tomato",
+      "Avoid overhead irrigation",
+      "Stake plants to improve air circulation",
+      "Remove and destroy infected debris"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Early_blight": {
+    "display_name": "Tomato Early Blight",
+    "description": "Early blight on tomato is caused by Alternaria solani. It produces concentric ring (bull's-eye) lesions on older leaves.",
+    "symptoms": [
+      "Dark brown spots with concentric rings (target pattern) on lower leaves",
+      "Yellow halos around spots",
+      "Stems may develop dark, sunken cankers",
+      "Premature defoliation from bottom up"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Mulch around plants to prevent soil splash",
+      "Water at the base of plants, not overhead",
+      "Remove and destroy infected plant debris",
+      "Practice 2-3 year crop rotation"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Late_blight": {
+    "display_name": "Tomato Late Blight",
+    "description": "Late blight on tomato is caused by Phytophthora infestans. It can destroy an entire crop within days under favorable conditions.",
+    "symptoms": [
+      "Large, irregular, water-soaked grayish-green spots on leaves",
+      "White fuzzy mold on underside of leaves in humid conditions",
+      "Dark brown to black lesions on stems",
+      "Firm, dark, greasy spots on fruit"
+    ],
+    "pesticides": [
+      "Metalaxyl 8% + Mancozeb 64% WP (2.5 g/L)",
+      "Cymoxanil 8% + Mancozeb 64% WP (2.5 g/L)",
+      "Dimethomorph 50% WP (1 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties (Roma, Mountain Magic)",
+      "Avoid overhead irrigation",
+      "Ensure good air circulation â€” stake and prune plants",
+      "Remove and destroy all infected plant material",
+      "Apply preventive fungicide during cool, wet weather",
+      "Do not compost infected plants"
+    ],
+    "severity": "Very High"
+  },
+  "Tomato___Leaf_Mold": {
+    "display_name": "Tomato Leaf Mold",
+    "description": "Leaf mold is caused by Passalora fulva (formerly Cladosporium fulvum). It thrives in warm, humid greenhouse conditions.",
+    "symptoms": [
+      "Pale greenish-yellow spots on upper leaf surface",
+      "Olive-green to grayish-purple fuzzy mold on lower leaf surface",
+      "Leaves curl, wither, and drop",
+      "Usually starts on lower leaves and moves upward"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Improve ventilation in greenhouses",
+      "Reduce humidity below 85%",
+      "Avoid overhead watering",
+      "Remove infected leaves promptly",
+      "Use resistant varieties",
+      "Space plants properly for air circulation"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "display_name": "Tomato Septoria Leaf Spot",
+    "description": "Septoria leaf spot is caused by Septoria lycopersici. It is one of the most common foliage diseases of tomatoes.",
+    "symptoms": [
+      "Numerous small (2-3 mm) circular spots with dark margins",
+      "Spots have grayish-white centers with tiny black dots (pycnidia)",
+      "Lower leaves affected first",
+      "Heavy spotting leads to yellowing and leaf drop"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)"
+    ],
+    "prevention": [
+      "Remove infected lower leaves to slow spread",
+      "Mulch to prevent soil splash onto leaves",
+      "Avoid working in wet fields",
+      "Practice crop rotation",
+      "Destroy infected plant residues after harvest"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "display_name": "Tomato Spider Mite Damage",
+    "description": "Two-spotted spider mites (Tetranychus urticae) are tiny arachnids that suck plant sap, causing stippling and bronzing of leaves.",
+    "symptoms": [
+      "Tiny yellow or white speckles (stippling) on upper leaf surface",
+      "Fine webbing on leaf undersides and between leaves",
+      "Leaves turn bronze, dry out, and drop",
+      "Stunted plant growth in severe infestations"
+    ],
+    "pesticides": [
+      "Abamectin 1.8% EC (0.5 mL/L)",
+      "Spiromesifen 22.9% SC (0.8 mL/L)",
+      "Dicofol 18.5% EC (2.5 mL/L)",
+      "Neem oil 1500 ppm (5 mL/L)",
+      "Sulphur 80% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Monitor regularly with hand lens â€” check leaf undersides",
+      "Maintain adequate plant moisture â€” mites thrive in dry, dusty conditions",
+      "Encourage natural predators (ladybugs, predatory mites)",
+      "Avoid excessive nitrogen fertilization",
+      "Spray water on leaf undersides to dislodge mites",
+      "Avoid broad-spectrum insecticides that kill beneficial predators"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Target_Spot": {
+    "display_name": "Tomato Target Spot",
+    "description": "Target spot is caused by Corynespora cassiicola. It produces large, concentric-ringed lesions on tomato leaves, stems, and fruit.",
+    "symptoms": [
+      "Small, brown spots that enlarge with concentric rings",
+      "Spots coalesce causing large areas of dead tissue",
+      "Can affect stems and fruit",
+      "Premature defoliation"
+    ],
+    "pesticides": [
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Difenoconazole 25% EC (0.5 mL/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties when available",
+      "Ensure proper plant spacing",
+      "Remove and destroy infected plant material",
+      "Practice crop rotation",
+      "Avoid overhead irrigation"
+    ],
+    "severity": "Moderate"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "display_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "description": "TYLCV is transmitted by the whitefly Bemisia tabaci. It causes severe stunting and yield loss in tomatoes.",
+    "symptoms": [
+      "Severe upward curling and cupping of leaves",
+      "Leaves become small and yellow",
+      "Stunted plant growth",
+      "Flowers drop â€” fruit production is severely reduced or absent",
+      "Plant may appear bushy from shortened internodes"
+    ],
+    "pesticides": [
+      "No cure for virus â€” control the whitefly vector",
+      "Imidacloprid 17.8% SL (0.3 mL/L)",
+      "Thiamethoxam 25% WG (0.3 g/L)",
+      "Acetamiprid 20% SP (0.2 g/L)",
+      "Neem oil 1500 ppm (5 mL/L) as repellent"
+    ],
+    "prevention": [
+      "Use TYLCV-resistant tomato varieties",
+      "Install yellow sticky traps to monitor whiteflies",
+      "Use UV-reflective mulch to deter whiteflies",
+      "Cover nurseries with insect-proof net (40 mesh)",
+      "Remove and destroy infected plants immediately",
+      "Avoid planting tomatoes near heavily infested fields"
+    ],
+    "severity": "Very High"
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "display_name": "Tomato Mosaic Virus (ToMV)",
+    "description": "Tomato mosaic virus is a highly stable virus spread mechanically through contaminated tools, hands, and infected seed.",
+    "symptoms": [
+      "Light and dark green mosaic pattern on leaves",
+      "Leaf distortion, curling, or fern-like appearance",
+      "Stunted growth",
+      "Yellowish mottling on fruit",
+      "Reduced fruit size and quality"
+    ],
+    "pesticides": [
+      "No chemical treatment available for viruses",
+      "Focus on prevention and vector control"
+    ],
+    "prevention": [
+      "Use certified virus-free seed",
+      "Wash hands with soap and water before handling plants",
+      "Disinfect tools with 10% bleach or milk solution",
+      "Remove and destroy infected plants immediately",
+      "Do not use tobacco products while working with tomatoes",
+      "Plant resistant varieties (those with Tm-2 gene)"
+    ],
+    "severity": "High"
+  },
+  "Tomato___healthy": {
+    "display_name": "Healthy Tomato",
+    "description": "The tomato plant appears healthy with no visible signs of disease.",
+    "symptoms": [
+      "No symptoms detected"
+    ],
+    "pesticides": [
+      "No treatment required"
+    ],
+    "prevention": [
+      "Stake or cage plants for support and air circulation",
+      "Water at the base, not overhead",
+      "Mulch to prevent soil splash and conserve moisture",
+      "Remove suckers for better fruit production",
+      "Monitor regularly for early signs of pests and diseases"
+    ],
+    "severity": "None"
+  },
+  "Blueberry___Mummy_berry": {
+    "display_name": "Blueberry Mummy Berry",
+    "description": "Mummy berry is caused by the fungus Monilinia vaccinii-corymbosi. It is the most economically important disease of blueberries, causing shoot blight and fruit mummification.",
+    "symptoms": [
+      "Sudden wilting and browning of new shoots and flower clusters",
+      "Infected berries appear normal initially but turn tan, then gray and shriveled",
+      "Mummified berries fall to ground and overwinter",
+      "Brown discoloration at base of infected shoots"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Fenbuconazole 24% SC (0.7 mL/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Indar (Fenbuconazole) at bloom stage"
+    ],
+    "prevention": [
+      "Rake and remove mummified berries from under bushes",
+      "Apply 2-3 inches of fresh mulch to bury mummies",
+      "Plant resistant varieties when available",
+      "Apply fungicide at bud break and during bloom",
+      "Ensure good air circulation through pruning"
+    ],
+    "severity": "High"
+  },
+  "Blueberry___Botrytis_blight": {
+    "display_name": "Blueberry Botrytis Blight (Gray Mold)",
+    "description": "Botrytis blight is caused by Botrytis cinerea. It affects flowers and fruit, causing gray mold especially during cool, wet weather.",
+    "symptoms": [
+      "Gray fuzzy mold on flowers and developing fruit",
+      "Blighted blossoms turn brown and cling to stems",
+      "Fruit rots with gray mold covering",
+      "Shoot tips may wilt and die back"
+    ],
+    "pesticides": [
+      "Captan 50% WP (2 g/L)",
+      "Iprodione 50% WP (1 g/L)",
+      "Fenhexamid 50% WG (1 g/L)",
+      "Cyprodinil + Fludioxonil (Switch fungicide)"
+    ],
+    "prevention": [
+      "Ensure good air circulation through pruning",
+      "Avoid overhead irrigation during bloom",
+      "Harvest fruit promptly when ripe",
+      "Remove dead flowers and infected fruit",
+      "Maintain proper plant spacing"
+    ],
+    "severity": "Moderate"
+  },
+  "Blueberry___Anthracnose": {
+    "display_name": "Blueberry Anthracnose Fruit Rot",
+    "description": "Anthracnose fruit rot is caused by Colletotrichum acutatum. It causes soft rot of ripe fruit, especially in warm, wet conditions.",
+    "symptoms": [
+      "Soft, sunken lesions on ripe or ripening fruit",
+      "Orange spore masses on fruit surface in humid conditions",
+      "Fruit shrivels and drops prematurely",
+      "Infections can remain latent until fruit ripens"
+    ],
+    "pesticides": [
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Pyraclostrobin 20% WG (0.5 g/L)",
+      "Captan 50% WP (2 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)"
+    ],
+    "prevention": [
+      "Prune to improve air circulation and light penetration",
+      "Harvest fruit frequently and promptly",
+      "Avoid overhead irrigation",
+      "Remove infected fruit and debris from field",
+      "Apply fungicides from bloom through harvest"
+    ],
+    "severity": "High"
+  },
+  "Raspberry___Anthracnose": {
+    "display_name": "Raspberry Anthracnose",
+    "description": "Raspberry anthracnose is caused by Elsinoe veneta. It produces sunken, gray-centered lesions on canes, leaves, and fruit.",
+    "symptoms": [
+      "Small, purplish spots on young canes",
+      "Spots enlarge to oval, sunken lesions with gray centers and purple borders",
+      "Bark may crack at lesion sites",
+      "Fruit may be small, dry, and seedy"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L) — dormant spray",
+      "Captan 50% WP (2 g/L)",
+      "Pyraclostrobin 20% WG (0.5 g/L)",
+      "Lime sulfur (dormant application)"
+    ],
+    "prevention": [
+      "Remove and destroy old fruiting canes after harvest",
+      "Thin canes to improve air circulation",
+      "Avoid overhead irrigation",
+      "Apply dormant spray of lime sulfur or copper",
+      "Plant resistant varieties"
+    ],
+    "severity": "Moderate"
+  },
+  "Raspberry___Late_leaf_rust": {
+    "display_name": "Raspberry Late Leaf Rust",
+    "description": "Late leaf rust is caused by Pucciniastrum americanum. It causes premature defoliation and weakens canes.",
+    "symptoms": [
+      "Small yellow pustules on lower leaf surfaces",
+      "Upper leaf surface shows yellow spots",
+      "Premature leaf drop in late summer",
+      "Weakened canes produce less fruit the following year"
+    ],
+    "pesticides": [
+      "Myclobutanil 10% WP (1 g/L)",
+      "Propiconazole 25% EC (1 mL/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)"
+    ],
+    "prevention": [
+      "Remove wild brambles near cultivated plantings",
+      "Ensure good air circulation through proper spacing",
+      "Remove fallen leaves in autumn",
+      "Apply fungicide when rust first appears",
+      "Plant resistant varieties"
+    ],
+    "severity": "Moderate"
+  },
+  "Raspberry___Botrytis_fruit_rot": {
+    "display_name": "Raspberry Gray Mold (Botrytis Fruit Rot)",
+    "description": "Gray mold caused by Botrytis cinerea is the most common post-harvest disease of raspberries, causing soft rot with gray fuzzy mold.",
+    "symptoms": [
+      "Soft, light brown rot on ripe fruit",
+      "Gray fuzzy mold covering affected berries",
+      "Fruit leaks juice and collapses",
+      "Disease spreads rapidly to adjacent berries"
+    ],
+    "pesticides": [
+      "Captan 50% WP (2 g/L)",
+      "Fenhexamid 50% WG (1 g/L)",
+      "Iprodione 50% WP (1 g/L)",
+      "Cyprodinil + Fludioxonil combination"
+    ],
+    "prevention": [
+      "Harvest fruit frequently in dry conditions",
+      "Ensure good air circulation through cane thinning",
+      "Avoid overhead irrigation during fruiting",
+      "Remove and destroy infected fruit promptly",
+      "Cool harvested fruit immediately to 0-2°C"
+    ],
+    "severity": "High"
+  },
+  "Soybean___Rust": {
+    "display_name": "Soybean Rust (Asian Soybean Rust)",
+    "description": "Asian soybean rust is caused by Phakopsora pachyrhizi. It is one of the most destructive diseases of soybean worldwide, capable of causing 80% yield loss.",
+    "symptoms": [
+      "Small, tan to dark brown lesions on lower leaves",
+      "Lesions produce tan to reddish-brown pustules on leaf undersides",
+      "Rapid yellowing and premature defoliation",
+      "Pods may also develop lesions in severe cases"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Trifloxystrobin 25% + Tebuconazole 50% WG (0.7 g/L)"
+    ],
+    "prevention": [
+      "Plant early-maturing varieties to escape peak rust season",
+      "Monitor fields regularly from flowering stage",
+      "Apply fungicide at first sign of rust",
+      "Avoid late planting",
+      "Destroy volunteer soybean plants"
+    ],
+    "severity": "Very High"
+  },
+  "Soybean___Septoria_brown_spot": {
+    "display_name": "Soybean Septoria Brown Spot",
+    "description": "Septoria brown spot is caused by Septoria glycines. It is one of the most common foliar diseases of soybeans.",
+    "symptoms": [
+      "Small, irregular, dark brown spots on lower leaves",
+      "Spots may merge causing large necrotic areas",
+      "Premature yellowing and defoliation of lower leaves",
+      "Usually starts on unifoliate and lower trifoliate leaves"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Thiophanate-methyl 70% WP (1 g/L)"
+    ],
+    "prevention": [
+      "Rotate with non-host crops like corn or wheat",
+      "Bury crop residues through tillage",
+      "Use resistant varieties",
+      "Maintain balanced fertility",
+      "Apply foliar fungicide if disease appears before pod fill"
+    ],
+    "severity": "Moderate"
+  },
+  "Soybean___Bacterial_blight": {
+    "display_name": "Soybean Bacterial Blight",
+    "description": "Bacterial blight is caused by Pseudomonas savastanoi pv. glycinea. It causes angular leaf spots, especially after storms with wind-driven rain.",
+    "symptoms": [
+      "Small, angular, water-soaked spots on leaves",
+      "Spots turn yellow-brown to dark brown with yellow halos",
+      "Centers of spots may dry and fall out",
+      "Symptoms appear on upper canopy after storms"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Streptomycin sulphate (0.5 g/L)",
+      "No highly effective chemical controls — focus on prevention"
+    ],
+    "prevention": [
+      "Use certified disease-free seed",
+      "Rotate crops for at least one year",
+      "Avoid working in fields when foliage is wet",
+      "Plant resistant varieties",
+      "Bury infected crop residues"
+    ],
+    "severity": "Low"
+  },
+  "Rice___Blast": {
+    "display_name": "Rice Blast",
+    "description": "Rice blast is caused by Magnaporthe oryzae. It is the most important disease of rice worldwide, attacking leaves, nodes, and panicles.",
+    "symptoms": [
+      "Diamond-shaped or elliptical spots with gray centers and brown margins on leaves",
+      "Spots may coalesce to kill entire leaves",
+      "Neck rot causing panicle to break and hang (neck blast)",
+      "Node blackening leading to stem breakage"
+    ],
+    "pesticides": [
+      "Tricyclazole 75% WP (0.6 g/L)",
+      "Isoprothiolane 40% EC (1.5 mL/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Edifenphos 50% EC (1 mL/L)",
+      "Kasugamycin 3% SL (2 mL/L)"
+    ],
+    "prevention": [
+      "Use blast-resistant varieties",
+      "Avoid excessive nitrogen fertilization",
+      "Maintain proper water management in paddies",
+      "Treat seeds with fungicide before sowing",
+      "Remove and destroy infected crop residues",
+      "Maintain proper spacing between plants"
+    ],
+    "severity": "Very High"
+  },
+  "Rice___Brown_spot": {
+    "display_name": "Rice Brown Spot",
+    "description": "Brown spot is caused by Bipolaris oryzae (Cochliobolus miyabeanus). It causes oval brown spots on leaves and grain discoloration.",
+    "symptoms": [
+      "Oval to circular brown spots with gray centers on leaves",
+      "Spots surrounded by yellow halo",
+      "Grain discoloration affecting quality",
+      "Seedling blight if seed is infected"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Propiconazole 25% EC (1 mL/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Edifenphos 50% EC (1 mL/L)"
+    ],
+    "prevention": [
+      "Use certified seed and treat with fungicide",
+      "Maintain balanced nutrition especially potassium and silicon",
+      "Ensure proper water management",
+      "Remove infected crop residues",
+      "Use resistant varieties"
+    ],
+    "severity": "Moderate"
+  },
+  "Rice___Bacterial_leaf_blight": {
+    "display_name": "Rice Bacterial Leaf Blight",
+    "description": "Bacterial leaf blight is caused by Xanthomonas oryzae pv. oryzae. It is one of the most serious diseases of rice in Asia.",
+    "symptoms": [
+      "Water-soaked streaks along leaf veins",
+      "Streaks enlarge and turn yellow to white",
+      "Leaves dry up from tips and margins",
+      "Milky bacterial ooze on leaf surface in early morning"
+    ],
+    "pesticides": [
+      "Streptomycin sulphate + Tetracycline (Streptocycline — 0.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Copper hydroxide 77% WP (2 g/L)",
+      "No highly effective chemical cure — resistant varieties preferred"
+    ],
+    "prevention": [
+      "Plant resistant varieties (recommended by IRRI/local stations)",
+      "Avoid clipping seedling tips during transplanting",
+      "Drain fields during severe outbreaks",
+      "Avoid excess nitrogen fertilization",
+      "Use balanced NPK with extra potassium"
+    ],
+    "severity": "Very High"
+  },
+  "Rice___Sheath_blight": {
+    "display_name": "Rice Sheath Blight",
+    "description": "Sheath blight is caused by Rhizoctonia solani. It attacks leaf sheaths near water level, causing oval lesions that expand upward.",
+    "symptoms": [
+      "Oval or irregular greenish-gray lesions on leaf sheaths near water line",
+      "Lesions enlarge and merge, moving upward",
+      "Affected sheaths and leaves dry up and turn brown",
+      "White mycelial growth visible on lesions in humid conditions"
+    ],
+    "pesticides": [
+      "Hexaconazole 5% SC (2 mL/L)",
+      "Propiconazole 25% EC (1 mL/L)",
+      "Validamycin 3% SL (2 mL/L)",
+      "Carbendazim 50% WP (1 g/L)"
+    ],
+    "prevention": [
+      "Avoid dense planting — maintain proper spacing",
+      "Manage nitrogen application carefully",
+      "Drain water periodically to lower humidity",
+      "Use seed treatment with Trichoderma viride",
+      "Remove sclerotia from fields before planting"
+    ],
+    "severity": "High"
+  },
+  "Wheat___Rust_stripe": {
+    "display_name": "Wheat Stripe (Yellow) Rust",
+    "description": "Stripe rust is caused by Puccinia striiformis f. sp. tritici. It forms yellow-orange pustules arranged in stripes along leaf veins.",
+    "symptoms": [
+      "Yellow to orange pustules arranged in long stripes between leaf veins",
+      "Leaves turn yellow and dry up",
+      "Green islands may remain between stripe patterns",
+      "Spores released in powdery masses"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)",
+      "Triadimefon 25% WP (1 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)"
+    ],
+    "prevention": [
+      "Plant resistant varieties recommended for your region",
+      "Timely sowing to avoid peak rust season",
+      "Monitor fields regularly from tillering stage",
+      "Apply fungicide at first sign of rust",
+      "Avoid excessive nitrogen fertilization"
+    ],
+    "severity": "Very High"
+  },
+  "Wheat___Leaf_rust": {
+    "display_name": "Wheat Leaf (Brown) Rust",
+    "description": "Leaf rust is caused by Puccinia triticina. It is the most common rust disease of wheat, producing small, round, orange-brown pustules on leaves.",
+    "symptoms": [
+      "Small, round to oval, orange-brown pustules scattered on leaf surface",
+      "Pustules mostly on upper leaf surface",
+      "Premature leaf drying in severe infections",
+      "Reduced grain filling and shriveled kernels"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Triadimefon 25% WP (1 g/L)"
+    ],
+    "prevention": [
+      "Grow rust-resistant varieties",
+      "Apply fungicides at first appearance of pustules",
+      "Avoid late sowing",
+      "Maintain balanced fertilization",
+      "Destroy volunteer wheat plants"
+    ],
+    "severity": "High"
+  },
+  "Wheat___Powdery_mildew": {
+    "display_name": "Wheat Powdery Mildew",
+    "description": "Powdery mildew of wheat is caused by Blumeria graminis f. sp. tritici. It produces white powdery patches on leaves and stems.",
+    "symptoms": [
+      "White to grayish powdery patches on leaves, stems, and heads",
+      "Patches turn gray-brown as they age",
+      "Leaves may yellow and die prematurely",
+      "Reduced tillering and grain fill"
+    ],
+    "pesticides": [
+      "Propiconazole 25% EC (1 mL/L)",
+      "Triadimefon 25% WP (1 g/L)",
+      "Sulphur 80% WP (3 g/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Avoid excessive nitrogen application",
+      "Ensure proper plant spacing",
+      "Apply foliar fungicide at first sign",
+      "Avoid dense sowing"
+    ],
+    "severity": "Moderate"
+  },
+  "Cotton___Bacterial_blight": {
+    "display_name": "Cotton Bacterial Blight (Angular Leaf Spot)",
+    "description": "Bacterial blight is caused by Xanthomonas citri pv. malvacearum. It causes angular water-soaked lesions on leaves, stems, and bolls.",
+    "symptoms": [
+      "Small, angular, water-soaked spots on leaves between veins",
+      "Spots turn brown to black with age",
+      "Black arm symptom — dark lesions on stems and petioles",
+      "Boll rot with sunken, dark spots on immature bolls"
+    ],
+    "pesticides": [
+      "Copper hydroxide 77% WP (2 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Streptomycin sulphate + Tetracycline (Streptocycline — 0.5 g/L)",
+      "Seed treatment with Carboxin 37.5% + Thiram 37.5% DS (3 g/kg seed)"
+    ],
+    "prevention": [
+      "Use acid-delinted, treated seed",
+      "Plant resistant varieties (consult local Krishi Vigyan Kendra)",
+      "Practice crop rotation with non-host crops",
+      "Remove and destroy infected plant debris",
+      "Avoid working in fields when foliage is wet"
+    ],
+    "severity": "High"
+  },
+  "Cotton___Bollworm_damage": {
+    "display_name": "Cotton Bollworm Damage",
+    "description": "American bollworm (Helicoverpa armigera) is the most destructive pest of cotton in India. Larvae bore into bolls and feed on developing seeds and lint.",
+    "symptoms": [
+      "Bore holes in squares, flowers, and bolls",
+      "Frass (excrement) at entry points",
+      "Damaged bolls may rot or drop prematurely",
+      "Larvae visible inside open bolls"
+    ],
+    "pesticides": [
+      "Emamectin benzoate 5% SG (0.4 g/L)",
+      "Chlorantraniliprole 18.5% SC (0.3 mL/L)",
+      "Spinosad 45% SC (0.3 mL/L)",
+      "Neem oil 1500 ppm (5 mL/L) — for early instars",
+      "Bt (Bacillus thuringiensis) var. kurstaki (2 g/L)"
+    ],
+    "prevention": [
+      "Install pheromone traps to monitor adult moths",
+      "Use Bt cotton varieties (approved GM varieties)",
+      "Intercrop with trap crops like marigold or pigeon pea",
+      "Release Trichogramma parasitoid wasps",
+      "Practice crop rotation and destroy crop stubble after harvest"
+    ],
+    "severity": "Very High"
+  },
+  "Cotton___Leaf_curl_virus": {
+    "display_name": "Cotton Leaf Curl Virus (CLCuV)",
+    "description": "Cotton leaf curl virus is transmitted by the whitefly Bemisia tabaci. It is a devastating disease in Indian and Pakistani cotton regions.",
+    "symptoms": [
+      "Upward or downward curling of leaves",
+      "Thickening and darkening of leaf veins (enations)",
+      "Leaf-like outgrowths on underside of leaves",
+      "Stunted plant growth and reduced boll formation"
+    ],
+    "pesticides": [
+      "No cure for virus — control the whitefly vector",
+      "Imidacloprid 17.8% SL (0.3 mL/L)",
+      "Thiamethoxam 25% WG (0.3 g/L)",
+      "Diafenthiuron 50% WP (1 g/L)",
+      "Neem oil 1500 ppm (5 mL/L)"
+    ],
+    "prevention": [
+      "Plant CLCuV-resistant or tolerant varieties",
+      "Early sowing to escape peak whitefly period",
+      "Install yellow sticky traps for whitefly monitoring",
+      "Uproot and destroy infected plants",
+      "Avoid growing alternate whitefly hosts nearby"
+    ],
+    "severity": "Very High"
+  },
+  "Groundnut___Tikka_leaf_spot": {
+    "display_name": "Groundnut Tikka Disease (Early & Late Leaf Spot)",
+    "description": "Tikka disease includes early leaf spot (Cercospora arachidicola) and late leaf spot (Cercosporidium personatum). These are the most common diseases of groundnut in India.",
+    "symptoms": [
+      "Dark brown circular spots on upper leaf surface (early leaf spot)",
+      "Black spots mainly on lower leaf surface (late leaf spot)",
+      "Severe defoliation reducing pod yield",
+      "Dark lesions on petioles and stems"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Hexaconazole 5% SC (2 mL/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties (ICGV series)",
+      "Treat seeds with Thiram or Carbendazim",
+      "Remove and destroy crop debris",
+      "Practice crop rotation (2-3 years)",
+      "Apply foliar fungicides at 30-35 days after sowing"
+    ],
+    "severity": "High"
+  },
+  "Groundnut___Rust": {
+    "display_name": "Groundnut Rust",
+    "description": "Groundnut rust is caused by Puccinia arachidis. It produces orange-brown pustules on leaf undersides.",
+    "symptoms": [
+      "Small, orange-brown to reddish-brown pustules on lower leaf surface",
+      "Corresponding light spots on upper surface",
+      "Severe infection causes premature defoliation",
+      "Reduced pod and kernel development"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Hexaconazole 5% SC (2 mL/L)",
+      "Propiconazole 25% EC (1 mL/L)"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Timely sowing to avoid peak disease period",
+      "Remove volunteer groundnut plants",
+      "Apply foliar fungicide at disease onset",
+      "Practice crop rotation with cereals"
+    ],
+    "severity": "High"
+  },
+  "Sugarcane___Red_rot": {
+    "display_name": "Sugarcane Red Rot",
+    "description": "Red rot is caused by Colletotrichum falcatum. It is the most serious disease of sugarcane in India, causing internal red discoloration of the stalk.",
+    "symptoms": [
+      "Yellowing and drying of leaves from tip downward",
+      "Red discoloration inside cane when split open",
+      "White patches within red-rotted tissue (diagnostic feature)",
+      "Shrunken and hollowed canes",
+      "Alcohol-like smell from infected canes"
+    ],
+    "pesticides": [
+      "Carbendazim 50% WP (1 g/L) — sett treatment",
+      "Thiophanate-methyl 70% WP (1 g/L) — sett treatment",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Sett treatment with Trichoderma viride (10 g/L for 15 min)"
+    ],
+    "prevention": [
+      "Use disease-free seed cane (setts) from registered nurseries",
+      "Treat setts with fungicide before planting",
+      "Plant resistant varieties (consult local cane research station)",
+      "Practice crop rotation with non-host crops",
+      "Rogue out and destroy infected clumps immediately"
+    ],
+    "severity": "Very High"
+  },
+  "Sugarcane___Smut": {
+    "display_name": "Sugarcane Smut (Whip Smut)",
+    "description": "Smut of sugarcane is caused by Sporisorium scitamineum. It produces a distinctive black whip-like structure from the growing point.",
+    "symptoms": [
+      "Long, black whip-like structure emerging from the top of the cane",
+      "Whip composed of black spore mass covered by thin membrane",
+      "Thin, pencil-like tillers (grass-like shoots)",
+      "Reduced cane thickness and sugar content"
+    ],
+    "pesticides": [
+      "Seed treatment with Propiconazole 25% EC (1 mL/L) for 15 min",
+      "Hot water treatment of setts at 52°C for 30 minutes",
+      "Carbendazim 50% WP — sett dip (1 g/L for 15 min)",
+      "Triadimefon 25% WP (1 g/L — sett treatment)"
+    ],
+    "prevention": [
+      "Use smut-free setts from disease-free nurseries",
+      "Hot water treatment of seed cane at 52°C for 30 minutes",
+      "Remove and burn smut whips before they open and release spores",
+      "Rogue out infected clumps from the field",
+      "Plant resistant varieties"
+    ],
+    "severity": "High"
+  },
+  "Chilli___Leaf_curl_virus": {
+    "display_name": "Chilli Leaf Curl Virus",
+    "description": "Chilli leaf curl is caused by a begomovirus transmitted by the whitefly Bemisia tabaci. It causes severe curling and puckering of leaves.",
+    "symptoms": [
+      "Upward curling and puckering of leaves",
+      "Leaves become small and deformed",
+      "Internode shortening giving bushy appearance",
+      "Drastic reduction in fruit set and yield"
+    ],
+    "pesticides": [
+      "No cure for virus — control the whitefly vector",
+      "Imidacloprid 17.8% SL (0.3 mL/L)",
+      "Thiamethoxam 25% WG (0.3 g/L)",
+      "Fipronil 5% SC (1.5 mL/L)",
+      "Neem oil 1500 ppm (5 mL/L)"
+    ],
+    "prevention": [
+      "Use virus-free nursery seedlings",
+      "Grow under insect-proof net (40 mesh) in nursery",
+      "Install yellow sticky traps to monitor whiteflies",
+      "Uproot and destroy infected plants early",
+      "Avoid growing chilli near cotton or tomato"
+    ],
+    "severity": "Very High"
+  },
+  "Chilli___Anthracnose_fruit_rot": {
+    "display_name": "Chilli Anthracnose (Fruit Rot / Die Back)",
+    "description": "Anthracnose of chilli is caused by Colletotrichum capsici and related species. It causes fruit rot and die-back of branches.",
+    "symptoms": [
+      "Sunken, dark, circular lesions on ripe fruit",
+      "Concentric rings of dark fruiting bodies on lesions",
+      "Tip die-back of branches progressing downward",
+      "Flower drop and reduced fruit set"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Seed treatment with Thiram (3 g/kg)"
+    ],
+    "prevention": [
+      "Use disease-free seeds from healthy fruits",
+      "Treat seeds with Thiram or Carbendazim",
+      "Practice crop rotation (2-3 years)",
+      "Avoid overhead irrigation during fruiting",
+      "Collect and destroy infected fruits from field"
+    ],
+    "severity": "High"
+  },
+  "Chilli___Powdery_mildew": {
+    "display_name": "Chilli Powdery Mildew",
+    "description": "Powdery mildew of chilli is caused by Leveillula taurica. It produces white powdery patches mainly on the lower leaf surface.",
+    "symptoms": [
+      "White powdery patches on lower leaf surface",
+      "Yellow spots on corresponding upper surface",
+      "Severe defoliation exposing fruit to sunscald",
+      "Reduced fruit size and quality"
+    ],
+    "pesticides": [
+      "Sulphur 80% WP (3 g/L) — avoid in hot weather above 35°C",
+      "Dinocap 48% EC (1 mL/L)",
+      "Myclobutanil 10% WP (1 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Ensure adequate spacing for air circulation",
+      "Avoid water stress",
+      "Apply sulfur-based fungicide preventively",
+      "Remove severely infected leaves"
+    ],
+    "severity": "Moderate"
+  },
+  "Mango___Anthracnose": {
+    "display_name": "Mango Anthracnose",
+    "description": "Anthracnose is caused by Colletotrichum gloeosporioides. It is the most important pre- and post-harvest disease of mango worldwide.",
+    "symptoms": [
+      "Black spots on flowers causing blossom blight",
+      "Dark, sunken lesions on fruit",
+      "Leaf spots and twig die-back",
+      "Post-harvest black decay of ripe fruit"
+    ],
+    "pesticides": [
+      "Carbendazim 50% WP (1 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Azoxystrobin 23% SC (1 mL/L)",
+      "Hot water treatment of fruit at 52°C for 5 min (post-harvest)"
+    ],
+    "prevention": [
+      "Spray fungicide at panicle emergence and again at fruit set",
+      "Prune canopy for better air circulation and light",
+      "Remove dead wood and mummified fruit",
+      "Harvest fruit carefully to avoid wounds",
+      "Hot water dip of fruit after harvest to control latent infections"
+    ],
+    "severity": "High"
+  },
+  "Mango___Powdery_mildew": {
+    "display_name": "Mango Powdery Mildew",
+    "description": "Powdery mildew of mango is caused by Oidium mangiferae. It affects flowers, young fruit, and leaves, causing heavy flower and fruit drop.",
+    "symptoms": [
+      "White powdery coating on flowers, panicles, and young leaves",
+      "Flower and fruitlet drop",
+      "Malformed and stunted fruit",
+      "Distorted young leaves"
+    ],
+    "pesticides": [
+      "Sulphur 80% WP (3 g/L)",
+      "Dinocap 48% EC (1 mL/L)",
+      "Tridemorph 80% EC (0.5 mL/L)",
+      "Myclobutanil 10% WP (1 g/L)"
+    ],
+    "prevention": [
+      "Spray sulphur at panicle emergence (before flowering)",
+      "Repeat spray during full bloom if weather is cool and humid",
+      "Prune trees for proper air circulation",
+      "Avoid excessive nitrogen fertilization",
+      "Remove and destroy affected panicles"
+    ],
+    "severity": "Moderate"
+  },
+  "Banana___Panama_wilt": {
+    "display_name": "Banana Panama Wilt (Fusarium Wilt)",
+    "description": "Panama disease is caused by Fusarium oxysporum f. sp. cubense. It is one of the most destructive diseases of banana worldwide, causing total plant death.",
+    "symptoms": [
+      "Yellowing of older leaves starting from margins",
+      "Leaves collapse and hang around the pseudostem (skirt-like)",
+      "Longitudinal splitting of pseudostem base",
+      "Reddish-brown discoloration in vascular tissue when pseudostem is cut"
+    ],
+    "pesticides": [
+      "No effective chemical cure available",
+      "Carbendazim 50% WP (2 g/L) — soil drench for suppression",
+      "Trichoderma viride (50 g/plant as bio-control agent)",
+      "Pseudomonas fluorescens (20 g/L — rhizome treatment)"
+    ],
+    "prevention": [
+      "Use disease-free tissue culture plantlets",
+      "Practice crop rotation (3-5 years with rice or sugarcane)",
+      "Avoid moving soil from infested to clean fields",
+      "Treat rhizomes with fungicide + bio-agents before planting",
+      "Maintain soil pH above 6.0",
+      "Do not use furrow irrigation from infested areas"
+    ],
+    "severity": "Very High"
+  },
+  "Banana___Sigatoka_leaf_spot": {
+    "display_name": "Banana Sigatoka Leaf Spot",
+    "description": "Sigatoka leaf spot includes Yellow Sigatoka (Mycosphaerella musicola) and Black Sigatoka (M. fijiensis). These are the most economically important leaf diseases of banana.",
+    "symptoms": [
+      "Yellow streaks on leaves that turn brown with gray centers",
+      "Streaks enlarge into oval spots with dark borders",
+      "Dark brown to black lesions (Black Sigatoka)",
+      "Premature drying and death of large leaf areas",
+      "Premature fruit ripening and reduced bunch weight"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Propiconazole 25% EC (1 mL/L)",
+      "Carbendazim 50% WP (1 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Mineral oil (agricultural grade) + fungicide for better coverage"
+    ],
+    "prevention": [
+      "De-leaf infected leaves and remove from field",
+      "Maintain proper spacing between plants",
+      "Ensure good drainage to reduce humidity",
+      "Apply fungicide before monsoon season",
+      "Use resistant varieties (Poovan, Monthan)"
+    ],
+    "severity": "High"
+  },
+  "Onion___Purple_blotch": {
+    "display_name": "Onion Purple Blotch",
+    "description": "Purple blotch is caused by Alternaria porri. It is the most important foliar disease of onion in India.",
+    "symptoms": [
+      "Small, sunken, whitish spots that enlarge into purple-brown lesions",
+      "Lesions develop concentric rings",
+      "Affected leaves bend and break at lesion point",
+      "Severe defoliation reducing bulb size"
+    ],
+    "pesticides": [
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Chlorothalonil 75% WP (2 g/L)",
+      "Tebuconazole 25.9% EC (1 mL/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Add sticker (Teepol) at 1 mL/L for better adherence"
+    ],
+    "prevention": [
+      "Practice crop rotation (2-3 years)",
+      "Use healthy bulbs for planting",
+      "Maintain proper plant spacing for air circulation",
+      "Avoid overhead irrigation",
+      "Start protective fungicide sprays before symptoms appear"
+    ],
+    "severity": "High"
+  },
+  "Mustard___White_rust": {
+    "display_name": "Mustard White Rust (Albugo)",
+    "description": "White rust is caused by Albugo candida. It produces white blister-like pustules on leaves, stems, and inflorescence of mustard.",
+    "symptoms": [
+      "White, shiny, blister-like pustules on lower leaf surface",
+      "Corresponding yellow spots on upper surface",
+      "Distorted and swollen inflorescence (staghead symptom)",
+      "Flowers become sterile — no seed formation in affected heads"
+    ],
+    "pesticides": [
+      "Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold — 2.5 g/L)",
+      "Mancozeb 75% WP (2.5 g/L)",
+      "Copper oxychloride 50% WP (3 g/L)",
+      "Seed treatment with Metalaxyl 35% WS (6 g/kg seed)"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Treat seeds with Metalaxyl before sowing",
+      "Practice crop rotation with non-cruciferous crops",
+      "Remove and destroy infected plant debris",
+      "Timely sowing to avoid peak disease period"
+    ],
+    "severity": "High"
+  },
+  "Turmeric___Rhizome_rot": {
+    "display_name": "Turmeric Rhizome Rot",
+    "description": "Rhizome rot is caused by Pythium aphanidermatum. It is the most destructive disease of turmeric, causing complete rotting of the underground rhizome.",
+    "symptoms": [
+      "Yellowing and wilting of lower leaves",
+      "Soft, watery rot of rhizome",
+      "Foul smell from infected rhizome",
+      "Collar region becomes soft and water-soaked",
+      "Plants pull out easily from soil"
+    ],
+    "pesticides": [
+      "Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold — 2.5 g/L) — soil drench",
+      "Copper oxychloride 50% WP (3 g/L) — soil drench",
+      "Trichoderma viride (50 g/plant — soil application)",
+      "Rhizome treatment with Mancozeb 75% WP (3 g/L) for 30 min before planting"
+    ],
+    "prevention": [
+      "Select healthy, disease-free seed rhizomes",
+      "Treat rhizomes with fungicide + bio-agent before planting",
+      "Ensure good soil drainage",
+      "Practice crop rotation (3 years minimum)",
+      "Apply Trichoderma viride enriched FYM at planting",
+      "Drench soil with fungicide at first sign of wilting"
+    ],
+    "severity": "Very High"
+  }
+}
