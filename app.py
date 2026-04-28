@@ -5,17 +5,23 @@ FarmDoctor AI — Streamlit App
 import os
 import gdown
 
-# ── Download model from Google Drive if not present ──────────────────────────
-MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 
-                          "Backend", "farmdoctor_v3.h5")
-FILE_ID = "1lL5puuUz-KOaOZRlvwFwI0iK_eHFL_Mn"  # Just the ID, not full URL
+# ── Model Download ─────────────────────────────────────────────────────────────
+MODEL_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "Backend",
+    "farmdoctor_v3.h5"       # must match MODEL_PATH in image.py
+)
+FILE_ID = "1lL5puuUz-KOaOZRlvwFwI0iK_eHFL_Mn"  # ✅ ID only, not full URL
 
 if not os.path.exists(MODEL_PATH):
     os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
-    print("Downloading model from Google Drive...")
-    url = f"https://drive.google.com/uc?id={FILE_ID}"
-    gdown.download(url, MODEL_PATH, quiet=False)
-    print("Model downloaded successfully!")
+    print("[INFO] Downloading model from Google Drive...")
+    gdown.download(
+        f"https://drive.google.com/uc?id={FILE_ID}",
+        MODEL_PATH,
+        quiet=False
+    )
+    print("[INFO] Model downloaded!")
 import streamlit as st
 import json
 import os
