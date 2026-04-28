@@ -1,29 +1,21 @@
-"""
-FarmDoctor AI — Standalone Streamlit App (Cloud Sync Fix)
-"""
-from huggingface_hub import hf_hub_download
-import os
 
-MODEL_PATH = "Backend/plant_disease_model.h5"
-
-if not os.path.exists(MODEL_PATH):
-    os.makedirs("Backend", exist_ok=True)
-    hf_hub_download(
-        repo_id="your_username/farmdoctor-model",
-        filename="plant_disease_model.h5",
-        local_dir="Backend"
-    )
+"""
+FarmDoctor AI — Streamlit App
+"""
 import os
 import gdown
 
-MODEL_PATH = "Backend/plant_disease_model.h5"
-FILE_ID = "https://drive.google.com/file/d/1lL5puuUz-KOaOZRlvwFwI0iK_eHFL_Mn/view?usp=drive_link"
+# ── Download model from Google Drive if not present ──────────────────────────
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 
+                          "Backend", "farmdoctor_v3.h5")
+FILE_ID = "1lL5puuUz-KOaOZRlvwFwI0iK_eHFL_Mn"  # Just the ID, not full URL
 
-# Download model if not present
 if not os.path.exists(MODEL_PATH):
-    os.makedirs("Backend", exist_ok=True)
+    os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
+    print("Downloading model from Google Drive...")
     url = f"https://drive.google.com/uc?id={FILE_ID}"
     gdown.download(url, MODEL_PATH, quiet=False)
+    print("Model downloaded successfully!")
 import streamlit as st
 import json
 import os
