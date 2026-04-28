@@ -1,7 +1,17 @@
 """
 FarmDoctor AI — Standalone Streamlit App (Cloud Sync Fix)
 """
+import os
+import gdown
 
+MODEL_PATH = "Backend/plant_disease_model.h5"
+FILE_ID = "your_google_drive_file_id_here"
+
+# Download model if not present
+if not os.path.exists(MODEL_PATH):
+    os.makedirs("Backend", exist_ok=True)
+    url = f"https://drive.google.com/uc?id={FILE_ID}"
+    gdown.download(url, MODEL_PATH, quiet=False)
 import streamlit as st
 import json
 import os
