@@ -1,2 +1,2 @@
-# Empty or remove if not needed. 
-# libglib2.0-0 was causing conflicts on Streamlit Cloud.
+# This file must be empty or only contain Debian system packages.
+# Python libraries go in requirements.txt instead.

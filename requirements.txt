@@ -5,3 +5,8 @@ numpy
 pandas
 groq
 python-dotenv
+opencv-python-headless
+scikit-learn
+requests
+langchain
+chromadb
