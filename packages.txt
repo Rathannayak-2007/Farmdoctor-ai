@@ -1,1 +1,2 @@
-libglib2.0-0
+# Empty or remove if not needed. 
+# libglib2.0-0 was causing conflicts on Streamlit Cloud.
